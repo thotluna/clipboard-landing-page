@@ -179,6 +179,14 @@ p {
   border-radius: 2.5rem;
 }
 
+.btn:hover {
+  padding: 1.2rem 2.7rem;
+}
+
+.btn:active {
+  padding: 0.8rem 2.3rem;
+}
+
 @media (max-width: 650px) {
   .btn {
     margin-bottom: 2rem;
@@ -418,5 +426,13 @@ footer img {
 
 .social li {
   margin: 1rem 1rem;
+}
+
+.social li:hover {
+  font-size: 2.7rem;
+}
+
+.social li:active {
+  color: #26baa4;
 }
 /*# sourceMappingURL=style.css.map */
